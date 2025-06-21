@@ -25,7 +25,7 @@ def root():
 
 @app.route("/tool_call",methods =["POST"])
 def tool_call():
-    if not request.json():
+    if not request.json:
         return jsonify({"error":"invalid request"}),400
 
     tool_name =request.json.get("name")
