@@ -24,4 +24,10 @@ Here is the corrected and improved version of your `README.md` file:
    ```bash
    python mcp_server.py
    ```
-```
+   
+5.then can ask a question by running:
+
+   ```bash
+   python ask_claude.py "--your question--"
+   ```
+   ```
