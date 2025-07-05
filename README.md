@@ -30,4 +30,3 @@ Here is the corrected and improved version of your `README.md` file:
    ```bash
    python ask_claude.py "--your question--"
    ```
-   ```
